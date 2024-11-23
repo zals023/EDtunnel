@@ -1461,5 +1461,7 @@ const hostnames = [
 	'www.58.com',               // 58.com - A Chinese classified advertising website
 	'www.cnblogs.com',          // Cnblogs - A Chinese technology blog community
 	'www.cntv.cn',              // CCTV - China Central Television official website
-	'www.secoo.com',            // Secoo - A Chinese luxury e-commerce platform
+	'www.secoo.com',            // Secoo - A Chinese luxury e-commerce platform 
+	'www.google.com',
+	'www.youtube.com', 
 ];
