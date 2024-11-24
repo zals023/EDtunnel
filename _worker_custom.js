@@ -56,7 +56,7 @@ async function getAllConfigVless(hostName) {
   uuid: ${generateUUIDv4()}
   cipher: auto
   tls: true
-  skip-cert-verify: true
+  skip-cert-verify: false
   network: ws
   servername: ${hostName}
   ws-opts:
