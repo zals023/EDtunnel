@@ -65,7 +65,7 @@ export default {
 
 			const userID_Path = userID.includes(',') ? userID.split(',')[0] : userID;
 			const url = new URL(request.url);
-			const host = request.headers.get('Host');
+			const host = request.headers.get('quiz.staging.vidio.com');
 
 			if (request.headers.get('Upgrade') !== 'websocket') {
 				switch (url.pathname) {
